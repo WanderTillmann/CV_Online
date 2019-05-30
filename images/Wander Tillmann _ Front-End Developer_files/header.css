@@ -1,4 +1,4 @@
-.nav{
+nav {
   padding-top: 150%;
   background-color: transparent;
   display: flex;
@@ -9,4 +9,10 @@
   width: 15%;
   box-shadow: unset;
   background: unset;
+}
+
+.sidenav-fixed {
+  /* background-color:none; */
+  position: absolute;
+  z-index: 999999999;
 }

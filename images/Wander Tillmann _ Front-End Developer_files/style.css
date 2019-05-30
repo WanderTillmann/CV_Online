@@ -4,7 +4,7 @@
 }
 html {
   overflow: visible;
-  height: 100%;
+  height: auto;
 }
 .section{
   padding-left: 200px;
@@ -16,17 +16,15 @@ html {
   margin: 0 auto;
   color: white;
 }
-#sobre{
-  height: 100%;
-}
 .social_icon{
-  padding-top: 50%;
+  padding-top: 35%;
   text-align: center;
 }
-.social_icon li{
+li{
   display: inline;
   padding: 0;
   margin: 0 auto;
+  
 }
 .banner{
   background-image: url(/images/1.jpg);
@@ -37,8 +35,15 @@ html {
   height: 100%;
 }
 .sobre{
-  text-align: justify;
+  background: red;
 }
 .lista_sobre {
-  height: 100%;
+  list-style: none;
+}
+.sobre .lista_sobre li .titulo_sobre {
+  position: relative;
+  margin-right: 10px;
+  padding-bottom: 1px;
+  color: #a1a1a1;
+  font-weight: 700;
 }
