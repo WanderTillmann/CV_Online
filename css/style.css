@@ -30,7 +30,6 @@ html {
 }
 .banner{
   background-image: url(../images/1.jpg);
-  background-color: black;
   background-position: center;
   background-size: cover;
   position: relative;
