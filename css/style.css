@@ -1,11 +1,86 @@
-* {
-  margin: 0%;
-  padding: 0%;
-}
-html {
-  overflow: visible;
+/*
+ default css start
+*/
+
+html,body{
   height: 100%;
 }
+
+body{
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #333333;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #999;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  letter-spacing: 0;
+  line-height:1.8;
+}
+
+a{
+  color: #999;
+  text-decoration: none;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+a:focus{
+  outline:none;
+  text-decoration: none;
+}
+
+a:hover{
+  outline:none;
+  text-decoration: none;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 30px;
+}
+
+.section-padding{
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.section-title h2 span{
+  color: #00B0DC;
+}
+.section-title h2 {
+  font-size: 40px;
+  color: #262626;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* default css end */
 .section{
   padding-left: 200px;
 } 
@@ -14,13 +89,12 @@ html {
   padding-top: 40%;
   height: 100%;
   margin: 0 auto;
-  color: white;
 }
 #sobre{
   height: 100%;
 }
 .social_icon{
-  padding-top: 50%;
+  padding-top: 45%;
   text-align: center;
 }
 .social_icon li{
@@ -41,3 +115,143 @@ html {
 .lista_sobre {
   height: 100%;
 }
+
+
+/*-------- 7. Services area starts ----------*/
+
+
+.services-area {
+    background: #f8f8f8;
+}
+.service {
+    text-align: center;
+}
+
+.service-box {
+    padding: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    transition: .9s;
+}
+
+.service-icon i {
+    font-size: 50px;
+    color: #00B0DC;
+    margin-bottom: 20px;
+}
+
+.service-box:hover:after {
+    top: 0;
+    height: 100%;
+    transition: 0.9s;
+}
+
+.service-box:hover .after {
+    bottom: 0;
+    height: 100%;
+    transition: 0.9s;
+}
+
+.service-box:hover:before {
+    left: 0;
+    width: 100%;
+    transition: 0.9s;
+}
+
+.service-box:hover .before {
+    right: 0;
+    width: 100%;
+    transition: 0.9s;
+}
+
+.service-box:hover:before,
+.service-box:hover .before {
+    width: 100%;
+    transition: 0.9s;
+}
+
+.service-box:after {
+    height: 80%;
+    width: 2px;
+    content: '';
+    top: 10%;
+    left: 0px;
+    transition: 0.9s;
+}
+
+.service-box .before,
+.service-box .after,
+.service-box:before,
+.service-box:after {
+    background: #777;
+    position: absolute;
+    transition: 0.9s;
+}
+
+.service-box:before {
+    height: 2px;
+    width: 80%;
+    content: '';
+    top: 0px;
+    left: 10%;
+    transition: 0.9s;
+}
+
+.service-box .before {
+    height: 2px;
+    width: 80%;
+    bottom: 0px;
+    right: 10%;
+    transition: 0.9s;
+}
+
+.service-box .after {
+    height: 80%;
+    width: 2px;
+    bottom: 10%;
+    right: 0px;
+    transition: 0.9s;
+}
+
+/*-------- Services area ends ----------*/
+
+/*-------- 11. Experience area starts -------------*/
+
+.fix-down {
+  margin-bottom: -30px;
+}
+
+.resumes {
+  list-style: none;
+}
+
+.resumes li {
+  padding: 20px;
+  box-shadow: 0 0 25px rgba(68, 68, 68, 0.07);
+  overflow: hidden;
+  position: relative;
+}
+
+.resumes li h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.resumes li h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #00B0DC;
+}
+
+.resumes li h5 {
+  margin-bottom: 8px;
+}
+
+.resumes li p {
+  margin-bottom: 0;
+  font-size: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+/*-------- Experience area ends -------------*/

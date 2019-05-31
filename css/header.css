@@ -1,6 +1,5 @@
 .nav{
   padding-top: 150%;
-  background-color: transparent;
   display: flex;
   box-shadow: unset;
 }
@@ -9,4 +8,8 @@
   width: 15%;
   box-shadow: unset;
   background: unset;
+}
+
+.sidenav li a{
+  color: #999;
 }
