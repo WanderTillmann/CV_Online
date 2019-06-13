@@ -1,6 +1,10 @@
+
+
 /*
  default css start
 */
+
+
 
 html,body{
   height: 100%;
@@ -81,9 +85,9 @@ img {
 }
 
 /* default css end */
-.section{
+ .section{
   padding-left: 200px;
-} 
+}  
 
 #home{
   padding-top: 40%;
@@ -255,3 +259,9 @@ img {
 }
 
 /*-------- Experience area ends -------------*/
+@media only screen and (max-width:600px){
+  .section{
+    padding-left: 0px;
+  }
+
+}
