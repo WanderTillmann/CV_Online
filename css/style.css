@@ -1,10 +1,13 @@
+@media only screen and (max-width:600px){
+  .section{
+    padding-left: 0px;
+  }
 
+}
 
 /*
  default css start
 */
-
-
 
 html,body{
   height: 100%;
@@ -259,9 +262,3 @@ img {
 }
 
 /*-------- Experience area ends -------------*/
-@media only screen and (max-width:600px){
-  .section{
-    padding-left: 0px;
-  }
-
-}
