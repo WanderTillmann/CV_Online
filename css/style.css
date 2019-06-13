@@ -256,7 +256,7 @@ img {
 }
 
 /*-------- Experience area ends -------------*/
-@media only screen and (max-width:600px){
+@media only screen and (max-width:1200px){
   .section{
     padding-left: 0px;
   }
